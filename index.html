@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asif Shahriar</title>
+    <script src="https://kit.fontawesome.com/a6edef28b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="navbar">
+                <nav>
+                    <img src="img/logo.jpeg" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfilio">Portfolio</a></li>
+                        <li><a href="#portfilio">Contact</a></li>
+                        <i class="fas fa-regular fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+            <div class="header-text">
+                <div class="home-content">
+                    <h3 class="title">Hello, It's Me</h3>
+                    <h1>Asif shahriar</h1>
+                    <h3>And I'am a <span class="multiple-text"></span></h3>
+                    <p>Passionate Web and Mobile App Developer and Tech Enthusiast.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------about-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/back2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi! This is Asif Shahriar. Welcome to my personal page that I’ve designed to showcase my skills and expertise that I’ve accumulated over the year. I’ve also placed all my social links at the left side, feel free to connect with me. I’d love to be given the opportunity to hear from you.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skill</p>
+                        <p class="tab-links" onclick="openTab('exprience')">Exprience </p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <!-- skill -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEB</span><br>Full-Stack Web Development</li>
+                            <li><span>App</span><br>Android Native app Development</li>
+                            <li><span>Graphic Designer</span><br>Illustration/Lineart/Vector Design</li>
+                        </ul>
+                    </div>
+                    <!-- Exprience -->
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Web Development at Aditya College of Engineering</li>
+                            <li><span>2020 - 2021</span><br>Android App Development at Digital Connectivity</li>
+                            <li><span>2020 - 2021</span><br>Graphic Desing at Learning and Earning Project</li>
+                        </ul>
+                    </div>
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-Present</span><br>Studing B-Tech at Aditya College of Engineering, Andhra Pradesh, India</li>
+                            <li><span>2016-2020</span><br>Studied Diploma at Rangpur Polytechnic Institute, Rangpur Bangladesh</li>
+                            <li><span>2015</span><br>Studied SSC at Darshana B.N. School and College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I am a professional web developer, I do web development using MEAN and MEARN Stack</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p>I have been doing Android native app development for 5 years. I do app development using java</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Hi, I'm an Illustrator and Graphic Designer. I have 5+ years of experienced and certificate advanced graphic design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfilio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/diplomaian.png" alt="">
+                    <div class="layer">
+                        <h3>Diplomaian App</h3>
+                        <p>Diplomaian is a Polytechnic App. Diploma in Engineering Helpline.</p>
+                        <a href="https://play.google.com/store/apps/developer?id=AS+Lab&hl=en&gl=US"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/playstore.png" alt="">
+                    <div class="layer">
+                        <h3>Others App</h3>
+                        <p>I have completed several app Development, which are available on google play-stroe</p>
+                        <a href="https://play.google.com/store/apps/developer?id=AS+Lab&hl=en&gl=US"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/fiverr.png" alt="">
+                    <div class="layer">
+                        <h3>Graphic Design</h3>
+                        <p>Hi, I'm an Illustrator and Graphic Designer. I have 5+ years of experienced and certificate advanced graphic design.</p>
+                        <a href="https://www.fiverr.com/users/as_lab"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            
+            </div>
+            <a href="https://www.fiverr.com/users/as_lab" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <span><i class="fa-regular fa-envelope"></i></span> asifs.cse@gmail.com</p>
+                    <p> <span><i class="fa-brands fa-whatsapp"></i></span>+919346699190</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/asifs.cse"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="pdf/Profile.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Enter name" required>
+                        <input type="email" name="email" placeholder="Enter Email" required>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Enter message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Asif Shahriar. Made with <i class="fa-solid fa-heart"></i> by AS Lab</p>
+        </div>
+    </div>
+    <!-- javascript -->
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sideMenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sideMenu.style.right = "0";
+        }
+        function closemenu(){
+            sideMenu.style.right = "-200px";
+        }
+    </script>
+    <!-- get data  -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzqHJa8jgqEXrsFIoPEiBuU7takGER_ltxQAGpS2d40r7O29CAAi2jrIG1IRosHAwEUUg/exec'
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message send successfully"
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+      <!-- type js -->
+      <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+      <script>
+        const typed = new Typed('.multiple-text',{
+            strings: ['Full Stack Developer', 'Android App Developer', 'Graphic Designer', 'Youtuber'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 100,
+            loop: true
+        });
+      </script>
+      
+
+</body>
+</html>
