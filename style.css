@@ -386,10 +386,12 @@ span{
 /* css for small screens */
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(img/back2.jpg);
+        background-image: url(img/back1.jpg);
+        
     }
+
     .header-text{
-        margin-top: 100%;
+        margin-top: 20;
         font-size: 16px;
     }
     .header-text h1{
